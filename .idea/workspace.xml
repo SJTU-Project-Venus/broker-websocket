@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f6967264-1c69-4bd8-b28c-0a5a6d40edbd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="476" />
+    <option name="width" value="488" />
+    <option name="height" value="524" />
+  </component>
+  <component name="ProjectId" id="1cslHlWaNSap57KddqyMcdw5SjW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.pipipan.eisproject.websocketserver" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\websocket-server" />
+      <recent name="E:\IdeaProjects\websocket-server\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="WebSocketServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="websocket-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.pipipan.eisproject.websocketserver.WebSocketServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6967264-1c69-4bd8-b28c-0a5a6d40edbd" name="Default Changelist" comment="" />
+      <created>1557888463660</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557888463660</updated>
+      <workItem from="1557888466633" duration="3653000" />
+      <workItem from="1558273923454" duration="1956000" />
+      <workItem from="1559050324536" duration="487000" />
+      <workItem from="1559625207640" duration="1391000" />
+      <workItem from="1559642984865" duration="106000" />
+      <workItem from="1559914513919" duration="654000" />
+      <workItem from="1560077747796" duration="782000" />
+      <workItem from="1591325097398" duration="922000" />
+      <workItem from="1591333105405" duration="2867000" />
+      <workItem from="1591369872757" duration="543000" />
+      <workItem from="1591419061523" duration="13000" />
+      <workItem from="1591419224419" duration="1729000" />
+      <workItem from="1591535061222" duration="283000" />
+      <workItem from="1591617937899" duration="1088000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="486" key="GridCell.Tab.0.bottom" timestamp="1591421206968">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="486" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1591421206968" />
+    <state width="1878" height="486" key="GridCell.Tab.0.center" timestamp="1591421206968">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="486" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1591421206968" />
+    <state width="1878" height="486" key="GridCell.Tab.0.left" timestamp="1591421206967">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="486" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1591421206967" />
+    <state width="1878" height="486" key="GridCell.Tab.0.right" timestamp="1591421206968">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="486" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1591421206968" />
+    <state width="1878" height="486" key="GridCell.Tab.1.bottom" timestamp="1591421206968">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="486" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1591421206968" />
+    <state width="1878" height="486" key="GridCell.Tab.1.center" timestamp="1591421206968">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="486" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1591421206968" />
+    <state width="1878" height="486" key="GridCell.Tab.1.left" timestamp="1591421206968">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="486" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1591421206968" />
+    <state width="1878" height="486" key="GridCell.Tab.1.right" timestamp="1591421206968">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="486" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1591421206968" />
+    <state x="469" y="190" key="SettingsEditor" timestamp="1591419071990">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="469" y="190" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1591419071990" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>websocket-server</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.62068963" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.62068963" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
