@@ -9,14 +9,14 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 
 @Component
-@RabbitListener(queues = "marketDepth")
-public class MarketDepthDTOListener {
+@RabbitListener(queues = "finishedOrder")
+public class OrderListener {
     Logger logger = LoggerFactory.getLogger(MarketDepthDTOListener.class);
     @RabbitHandler
     public void handle(String message){
-        logger.info("marketDetph: {}", message);
+        logger.info("finishedOrder: {}", message);
         try {
-            WebSocket.sendMessage(message,0);
+            WebSocket.sendMessage(message,1);
         } catch (IOException e) {
             e.printStackTrace();
         }

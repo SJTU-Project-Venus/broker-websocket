@@ -1,5 +1,8 @@
 package macoredroid;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONException;
+import com.alibaba.fastjson.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
@@ -13,7 +16,6 @@ import javax.websocket.server.ServerEndpoint;
 import java.io.IOException;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
-
 @Component
 @ServerEndpoint("/websocket/{traderId}")
 public class WebSocket {
@@ -40,9 +42,44 @@ public class WebSocket {
         clients.remove(traderId);
     }
 
-    public static void sendMessage(String message) throws IOException{
-        for (WebSocket item : clients.values()){
-            item.session.getAsyncRemote().sendText(message);
+    public String getTraderId()
+    {
+        return this.traderId;
+    }
+
+    public static void sendMessage(String message, int type) throws IOException{
+        if(type==0) {//marketdepth
+            for (WebSocket item : clients.values()) {
+                item.session.getAsyncRemote().sendText(message);
+            }
+        }
+        else
+        {
+            JSONObject jsonObject;
+            try {
+                jsonObject = (JSONObject) JSON.parse(message);
+                JSONObject order= (JSONObject) JSON.parse((String)jsonObject.get("order"));
+                String buyerTraderName= (String) order.get("buyerTraderName");
+                String sellerTraderName= (String) order.get("sellerTraderName");
+                order.put("buyerTraderName","");
+                order.put("buyerTraderDetailName","");
+                order.put("sellerTraderName","");
+                order.put("sellerTraderDetailName","");
+                jsonObject.put("order",order.toJSONString());
+                String another=jsonObject.toJSONString();
+                for (WebSocket item : clients.values()) {
+                    if(item.getTraderId().equals(buyerTraderName)||item.getTraderId().equals(sellerTraderName))
+                    {
+                        item.session.getAsyncRemote().sendText(message);
+                    }
+                    else {
+                        item.session.getAsyncRemote().sendText(another);
+                    }
+                }
+            }catch (JSONException ignored){
+
+            }
+
         }
     }
 }

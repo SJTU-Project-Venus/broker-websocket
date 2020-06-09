@@ -20,10 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6967264-1c69-4bd8-b28c-0a5a6d40edbd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/pipipan/eisproject/websocketserver/MarketDepthDTOListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/macoredroid/MarketDepthDTOListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/pipipan/eisproject/websocketserver/WebSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/macoredroid/WebSocket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/pipipan/eisproject/websocketserver/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/macoredroid/WebSocketConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/pipipan/eisproject/websocketserver/WebSocketServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/macoredroid/WebSocketServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/macoredroid/OrderListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/macoredroid/MarketDepthDTOListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/macoredroid/MarketDepthDTOListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/macoredroid/WebSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/macoredroid/WebSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/macoredroid/WebSocketServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/macoredroid/WebSocketServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/pipipan/eisproject/websocketserver/MarketDepthDTOListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/pipipan/eisproject/websocketserver/WebSocket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/pipipan/eisproject/websocketserver/WebSocketConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/pipipan/eisproject/websocketserver/WebSocketServerApplication.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +93,7 @@
   <component name="RunManager">
     <configuration name="WebSocketServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="websocket-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.pipipan.eisproject.websocketserver.WebSocketServerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="macoredroid.WebSocketServerApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,7 +124,9 @@
       <workItem from="1591419224419" duration="1729000" />
       <workItem from="1591535061222" duration="283000" />
       <workItem from="1591617937899" duration="1088000" />
-      <workItem from="1591629947762" duration="492000" />
+      <workItem from="1591629947762" duration="3666000" />
+      <workItem from="1591680614362" duration="3097000" />
+      <workItem from="1591687776047" duration="2899000" />
     </task>
     <servers />
   </component>
@@ -139,38 +146,46 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="486" key="GridCell.Tab.0.bottom" timestamp="1591421206968">
+    <state x="424" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591681011065">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="486" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1591421206968" />
-    <state width="1878" height="486" key="GridCell.Tab.0.center" timestamp="1591421206968">
+    <state x="424" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1591681011065" />
+    <state x="697" y="348" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1591681010396">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="486" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1591421206968" />
-    <state width="1878" height="486" key="GridCell.Tab.0.left" timestamp="1591421206967">
+    <state x="697" y="348" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1591681010396" />
+    <state width="1878" height="560" key="GridCell.Tab.0.bottom" timestamp="1591692496446">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="486" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1591421206967" />
-    <state width="1878" height="486" key="GridCell.Tab.0.right" timestamp="1591421206968">
+    <state width="1878" height="560" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1591692496446" />
+    <state width="1878" height="560" key="GridCell.Tab.0.center" timestamp="1591692496445">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="486" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1591421206968" />
-    <state width="1878" height="486" key="GridCell.Tab.1.bottom" timestamp="1591421206968">
+    <state width="1878" height="560" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1591692496445" />
+    <state width="1878" height="560" key="GridCell.Tab.0.left" timestamp="1591692496445">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="486" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1591421206968" />
-    <state width="1878" height="486" key="GridCell.Tab.1.center" timestamp="1591421206968">
+    <state width="1878" height="560" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1591692496445" />
+    <state width="1878" height="560" key="GridCell.Tab.0.right" timestamp="1591692496446">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="486" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1591421206968" />
-    <state width="1878" height="486" key="GridCell.Tab.1.left" timestamp="1591421206968">
+    <state width="1878" height="560" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1591692496446" />
+    <state width="1878" height="560" key="GridCell.Tab.1.bottom" timestamp="1591692496448">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="486" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1591421206968" />
-    <state width="1878" height="486" key="GridCell.Tab.1.right" timestamp="1591421206968">
+    <state width="1878" height="560" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1591692496448" />
+    <state width="1878" height="560" key="GridCell.Tab.1.center" timestamp="1591692496447">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="486" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1591421206968" />
+    <state width="1878" height="560" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1591692496447" />
+    <state width="1878" height="560" key="GridCell.Tab.1.left" timestamp="1591692496446">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="560" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1591692496446" />
+    <state width="1878" height="560" key="GridCell.Tab.1.right" timestamp="1591692496447">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="560" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1591692496447" />
     <state x="469" y="190" key="SettingsEditor" timestamp="1591419071990">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
