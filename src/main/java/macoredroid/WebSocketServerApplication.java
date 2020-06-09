@@ -1,4 +1,4 @@
-package cn.pipipan.eisproject.websocketserver;
+package macoredroid;
 
 import org.springframework.amqp.core.*;
 import org.springframework.boot.SpringApplication;

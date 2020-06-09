@@ -1,4 +1,4 @@
-package cn.pipipan.eisproject.websocketserver;
+package macoredroid;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
