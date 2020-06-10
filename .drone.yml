@@ -8,7 +8,7 @@ steps:
       - name: maven-cache
         path: /root/.m2
     commands:
-      - sleep 5
+      - sleep 15
       - chmod +x ./mvnw && ./mvnw test -Dspring.profiles.active=droneCI && ./mvnw clean package -Dspring.profiles.active=droneCI
     when:
       branch:
