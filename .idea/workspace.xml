@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6967264-1c69-4bd8-b28c-0a5a6d40edbd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f6967264-1c69-4bd8-b28c-0a5a6d40edbd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,6 +76,7 @@
       <recent name="cn.pipipan.eisproject.websocketserver" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="E:\IdeaProjects\websocket-server" />
       <recent name="E:\IdeaProjects\websocket-server\src\main\resources" />
     </key>
@@ -119,7 +118,7 @@
       <workItem from="1591629947762" duration="3666000" />
       <workItem from="1591680614362" duration="3097000" />
       <workItem from="1591687776047" duration="3126000" />
-      <workItem from="1591794402826" duration="3175000" />
+      <workItem from="1591794402826" duration="3613000" />
     </task>
     <servers />
   </component>
