@@ -8,10 +8,10 @@
         <version>2.1.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>cn.pipipan.eisproject</groupId>
-    <artifactId>websocket-server</artifactId>
+    <groupId>macoredroid</groupId>
+    <artifactId>websocket-broker</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>websocket-server</name>
+    <name>websocket-broker</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
