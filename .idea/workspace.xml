@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6967264-1c69-4bd8-b28c-0a5a6d40edbd" name="Default Changelist" comment="" />
+    <list default="true" id="f6967264-1c69-4bd8-b28c-0a5a6d40edbd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.drone.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.drone.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +120,7 @@
       <workItem from="1591629947762" duration="3666000" />
       <workItem from="1591680614362" duration="3097000" />
       <workItem from="1591687776047" duration="3126000" />
-      <workItem from="1591794402826" duration="3613000" />
+      <workItem from="1591794402826" duration="3990000" />
     </task>
     <servers />
   </component>
@@ -142,6 +144,10 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="424" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1591681011065" />
+    <state x="714" y="361" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591800154495">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="714" y="361" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.1057@0.23.1920.1057" timestamp="1591800154495" />
     <state x="697" y="348" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1591681010396">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
