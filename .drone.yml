@@ -8,7 +8,7 @@ steps:
       - name: maven-cache
         path: /root/.m2
     commands:
-      - chmod +x ./mvnw && ./mvnw clean package 
+      - chmod +x ./mvnw && ./mvnw clean package
     when:
       branch:
         - master
