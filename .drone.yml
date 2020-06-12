@@ -1,5 +1,5 @@
 kind: pipeline
-name: broker-websocket
+name: broker-gateway
 
 steps:
   - name: test
@@ -8,24 +8,29 @@ steps:
       - name: maven-cache
         path: /root/.m2
     commands:
-      - chmod +x ./mvnw && ./mvnw clean package
+      - chmod +x ./mvnw  && ./mvnw clean package -Dspring.profiles.active=product
     when:
       branch:
         - master
+        - master-*
         - dev
+        - fix-*
+
+
 
   - name: docker
     image: plugins/docker
     settings:
-      username: macoredroid
+      username: zhiyuanma0401
       password:
-        from_secret: macoredroid
-      repo: macoredroid/broker-websocket
+        from_secret: zhiyuanma0401
+      repo: registry.cn-hangzhou.aliyuncs.com/macoredroid/broker-websocket
+      registry: registry.cn-hangzhou.aliyuncs.com
       tags:
-        - v1.0.0
+        - brokerone
     when:
       branch:
-        - master
+        - master-*
 
 volumes:
   - name: maven-cache
