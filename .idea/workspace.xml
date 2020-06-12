@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6967264-1c69-4bd8-b28c-0a5a6d40edbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-product.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.drone.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.drone.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +63,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -82,8 +79,8 @@
       <recent name="cn.pipipan.eisproject.websocketserver" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="E:\IdeaProjects\websocket-server" />
       <recent name="E:\IdeaProjects\websocket-server\src\main\resources" />
     </key>
@@ -125,7 +122,7 @@
       <workItem from="1591629947762" duration="3666000" />
       <workItem from="1591680614362" duration="3097000" />
       <workItem from="1591687776047" duration="3126000" />
-      <workItem from="1591794402826" duration="6618000" />
+      <workItem from="1591794402826" duration="7876000" />
     </task>
     <servers />
   </component>
