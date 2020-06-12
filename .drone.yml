@@ -27,7 +27,7 @@ steps:
       repo: registry.cn-hangzhou.aliyuncs.com/macoredroid/broker-websocket
       registry: registry.cn-hangzhou.aliyuncs.com
       tags:
-        - brokerone
+        - brokertwo
     when:
       branch:
         - master-*
