@@ -50,7 +50,7 @@ public class WebSocket {
     public static void sendMessage(String message, int type) throws IOException{
         if(type==0) {//marketdepth
             for (WebSocket item : clients.values()) {
-                item.session.getAsyncRemote().sendText(message);
+                item.session.getBasicRemote().sendText(message);
             }
         }
         else
@@ -68,12 +68,12 @@ public class WebSocket {
                 jsonObject.put("order",order.toJSONString());
                 String another=jsonObject.toJSONString();
                 for (WebSocket item : clients.values()) {
-                    if(item.getTraderId().equals(buyerTraderName)||item.getTraderId().equals(sellerTraderName))
+                    if(item.getTraderId().equals(buyerTraderName)||item.getTraderId().equals(sellerTraderName)||item.getTraderId().equals("broker-ui"))
                     {
-                        item.session.getAsyncRemote().sendText(message);
+                        item.session.getBasicRemote().sendText(message);
                     }
                     else {
-                        item.session.getAsyncRemote().sendText(another);
+                        item.session.getBasicRemote().sendText(another);
                     }
                 }
             }catch (JSONException ignored){
